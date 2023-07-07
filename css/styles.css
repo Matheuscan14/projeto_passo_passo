@@ -1,7 +1,25 @@
 html{
     background-color:darkgray;
-    margin: 20px;
-    border: 7px solid green;
+   margin: 0px;
+    background-color: rgb(0, 0, 0);
+    background-image: url("../img/brasil.png") ;
+    background-position: 50% 50%;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+    
+
+
+
+body{
+    /* margin: 0px;
+    background-image: url("../img/brasil.png") ;
+    background-position: 50% 50%;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   */
 }
 
 .in{
@@ -32,7 +50,7 @@ html{
 
 
 .inicio{
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
 }
 
 .inicio h3{
@@ -40,7 +58,7 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 3.0em;
 }
 
@@ -67,14 +85,15 @@ html{
 }
 
 .titulo{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.473); 
+    border:  5px solid greenyellow; 
+    margin-top: 10px;
    
 }
 
 .titulo h1{
     font-size: 2.0em;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
      width: 100%; 
     display: flex;
     flex-direction: column; 
@@ -84,16 +103,18 @@ html{
 .titulo p{
     font-size: 1.0em; 
     display: flex;
+    color: #ffffff;
 }
 
 .militar{
-    width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.473); 
+    border:  5px solid greenyellow;
+    margin-top: 10px;
 }
 
-.militar h1{
+.militar h2{
     font-size: 2.0em;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
      width: 100%; 
     display: flex;
     flex-direction: column; 
@@ -102,19 +123,30 @@ html{
 }
 
 .militar p{
-    font-size: 1.0em; 
+    font-size: 1.5em; 
     display: flex;
-    color: #000000;
+    color: #ffffff;
+}
+.militar a{
+    color: greenyellow;
+
+}
+
+.militar h1{
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    padding: 0px 30px;
 }
 
 .cnh{
-    width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.473); 
+    border:  5px solid   greenyellow;
+    margin-top: 10px;
 }
 
 .cnh h1{
     font-size: 2.0em;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
      width: 100%; 
     display: flex;
     flex-direction: column; 
@@ -125,17 +157,18 @@ html{
 .cnh p{
     font-size: 1.0em; 
     display: flex;
-    color: #000000;
+    color: #ffffff;
 }
 
 .trabalho{
-    width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.473); 
+    border:  5px solid #7bff00;
+    margin-top: 10px;
 }
 
 .trabalho h1{
     font-size: 2.0em;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
      width: 100%; 
     display: flex;
     flex-direction: column; 
@@ -146,6 +179,6 @@ html{
 .trabalho p{
     font-size: 1.0em; 
     display: flex;
-    color: #000000;
+    color: #ffffff;
 }
 
